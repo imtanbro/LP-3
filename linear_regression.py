@@ -23,13 +23,6 @@ def plot_line(x,y,b):
     plt.plot(x,y_pred,color="g")
     plt.show()
 
-def plot_line(x,y,b):
-    plt.scatter(x,y, color="m", marker="o",s=30)
-    
-    y_pred = b[0]+b[1]*x
-    
-    plt.plot(x,y_pred,color="g")
-    plt.show()
 
 x = np.array([10,9,2,15,10,16,11,16])
 y = np.array([95,80,10,50,45,98,38,93])
